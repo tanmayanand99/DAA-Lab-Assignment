@@ -6,7 +6,7 @@ void linearsearch()
     int n,key,flag=0,comp=1;
     cout << "Enter the number of elements you want to enter in the array" << endl;
     cin >> n;
-    int *a=(int *)malloc(sizeof(int)*n);
+    int *a=new int[n];
     cout << "Enter the elements in the array" << endl;
     for(int i=0;i<n;i++)
     {
