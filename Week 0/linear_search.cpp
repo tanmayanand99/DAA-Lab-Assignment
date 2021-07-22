@@ -3,7 +3,7 @@ using namespace std;
 void linearsearch()
 {
     static int c=1;
-    int n,key,flag=0,comp=1;
+    int n,key,flag=0,comp=0;
     cout << "Enter the number of elements you want to enter in the array" << endl;
     cin >> n;
     int *a=new int[n];
